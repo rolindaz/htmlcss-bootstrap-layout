@@ -21,7 +21,7 @@ body {
 }
 
 img {
-    max-width: 100%;
+    max-width: 90%;
 }
 
 #meet {
@@ -34,7 +34,8 @@ img {
     }
     main {
         #invite,
-        #meet {
+        #meet,
+        #fandom {
             .container {
                 .row {
                     .col-lg-4 {
