@@ -28,6 +28,10 @@ img {
     max-width: 90%;
 }
 
+.big {
+    flex-basis: 30%;
+}
+
 #meet,
 #video-call {
     background-color: #f6f6f6;
@@ -42,19 +46,48 @@ img {
     }
 }
 
+footer {
+    background-color: #24272A;
+    h3,
+    h5 {
+        color: #92A0DC;
+    }
+    #ita {
+        max-height: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    footer {
+        .container {
+            flex-direction: row !important;
+            flex-wrap: wrap;
+        }
+    }
+}
+
 @media screen and (min-width: 992px) {
     .my-container-sm {
         max-width: 45%;
     }
     main {
         #invite,
-        #meet,
         #fandom {
             .container {
                 .row {
                     .col-lg-4 {
                         text-align: left !important;
                         padding-left: 0 !important;
+                    }
+                }
+            }
+        }
+        #meet {
+            .container {
+                .row {
+                    .col-lg-4 {
+                        text-align: left !important;
+                        padding-left: 4rem !important;
                     }
                 }
             }
