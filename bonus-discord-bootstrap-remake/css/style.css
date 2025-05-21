@@ -77,7 +77,7 @@ footer {
 
 @media screen and (min-width: 992px) {
     .my-container-sm {
-        max-width: 55%;
+        max-width: 50%;
     }
     main {
         #invite,
