@@ -6,23 +6,49 @@
         .btn-primary {
             background-color: white;
         }
-        --ly-text-light:white;
-        --ly-text-dark:black;
-        --ly-btn-light:white;
-        --ly-btn-dark:black;
-        --ly-bg-primary:white;
-        --ly-bg-secondary:#F6F6F6;
-        --ly-footer-bg-color: #24272A;
-        --ly-text-brand: #7688D4;
     /* #endregion color variables */
 }
 
-.my-container {
-    width: 65%;
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.my-container-sm {
-    line-height: 2rem;
-    width: 44%;
-    margin: 0 auto;
+#jumbotron {
+    height: 440px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img {
+    max-width: 100%;
+}
+
+#meet {
+    background-color: #f6f6f6;
+}
+
+@media screen and (min-width: 992px) {
+    .my-container-sm {
+        max-width: 45%;
+    }
+    main {
+        #invite,
+        #meet {
+            .container {
+                .row {
+                    .col-lg-4 {
+                        text-align: left !important;
+                        padding-left: 0 !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .my-container-xl {
+        max-width: 80%;
+    }
 }

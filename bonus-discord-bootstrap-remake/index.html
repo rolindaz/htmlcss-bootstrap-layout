@@ -11,11 +11,11 @@
     <!--My CSS-->
     <link rel="stylesheet" href="./css/style.css">
   </head>
-  <body style="font-family: Arial, Helvetica, sans-serif;">
+  <body>
     <header class="bg-primary p-2">
       <nav class="navbar navbar-dark navbar-expand-lg">
-        <div class="container my-container d-flex justify-content-between">
-          <img src="./img/logo.svg" alt="Discord Logo" class="navbar-brand">
+        <div class="container d-flex justify-content-center">
+          <img src="./img/logo.svg" alt="Discord Logo" class="navbar-brand mx-5">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -38,26 +38,66 @@
               </li>
             </ul>
           </div>
-          <button class="btn btn-primary text-black rounded-pill py-2 px-3" type="submit">Accedi</button>    
+          <button class="btn btn-primary text-black rounded-pill py-2 px-3 mx-5" type="submit">Accedi</button>    
         </div>
       </nav>
     </header>
 
     <main>
-      <div id="jumbotron" style="background-image: url(./img/jumbo.png); background-size: cover; background-repeat: no-repeat; height: 440px;" class="py-2">
+      <div id="jumbotron" class="py-2">
         <div class="container my-container-sm d-flex flex-column text-center text-white justify-content-center gap-3" style="height: 100%;">
           <h1 class="fw-bold">
             Il tuo posto per parlare
           </h1>
-          <p>
+          <p class="lh-base">
             Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale, o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.
           </p>
           <div class="container d-flex justify-content-around px-5">
-            <button class="btn btn-primary text-black rounded-pill py-2 px-3">&#11107; Scarica per Mac</button>
-            <button class="btn btn-dark rounded-pill py-2 px-3">Apri Discord nel tuo browser</button>
+            <button class="btn btn-primary text-black rounded-pill py-2 px-3">
+              &#11107; Scarica per Mac
+            </button>
+            <button class="btn btn-dark rounded-pill py-2 px-3">
+              Apri Discord nel tuo browser
+            </button>
         </div>
         </div>
       </div>
+      <section id="invite" class="px-3">
+        <div class="container my-container-xl">
+          <div class="row py-4 px-2">
+            <div class="col-12 col-lg-8 d-flex align-content-center py-3">
+              <img src="./img/item1.svg" alt="Reading Froggy">
+            </div>
+            <div class="col-12 col-lg-4 d-flex flex-column px-5 justify-content-center align-items-center text-center">
+              <h2 class="fw-bold">
+                Un luogo a invito con tutto lo spazio necessario per parlare
+              </h2>
+              <p>
+                I server Discord sono organizzati in canali tematici in cui puoi collaborare, condividere o semplicemente parlare della tua giornata senza intasare una chat di gruppo.
+              </p>
+            </div>
+          </div>
+      </section>
+      <section id="meet" class="px-3">
+        <div class="container my-container-xl">
+          <div class="row py-4 px-2">
+            <div class="col-12 col-lg-4 d-flex flex-column py-3 px-5 justify-content-center align-items-center    text-center">
+              <h2 class="fw-bold">
+                Dove trovarsi é facile              
+              </h2>
+              <p>
+                Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere che sei lì e unirsi istantaneamente senza dover chiamare.
+              </p>
+            </div>
+            <div class="col-12 col-lg-8 d-flex align-content-center py-3">
+              <img src="./img/item2.svg" alt="Chilling Wizard">
+            </div>
+          </div>
+        </div>
+      </section>
+        
+          
+        </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
   </body>
