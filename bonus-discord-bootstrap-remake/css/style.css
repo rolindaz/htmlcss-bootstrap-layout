@@ -1,16 +1,13 @@
-:root {
-    /* #region color variables */
-        .bg-primary {
-            background-color: #3D60D8;
-        }
-        .btn-primary {
-            background-color: white;
-        }
+.btn-primary {
+    background-color: white;
+}
 
-        .btn-secondary {
-            background-color: #92A0DC;
-        }
-    /* #endregion color variables */
+.btn-secondary {
+    background-color: #92A0DC;
+}
+
+header {
+    background-color: #3D60D8;
 }
 
 body {
