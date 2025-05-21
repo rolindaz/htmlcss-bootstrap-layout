@@ -58,17 +58,29 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
+    #jumbotron {
+        .container {
+            .d-flex {
+                flex-direction: row !important;
+                justify-content: center;
+            }
+        }
+    }
     footer {
         .container {
             flex-direction: row !important;
             flex-wrap: wrap;
+            .big {
+                flex-basis: 100%;
+                padding-bottom: 2.5rem !important;
+            }
         }
     }
 }
 
 @media screen and (min-width: 992px) {
     .my-container-sm {
-        max-width: 45%;
+        max-width: 55%;
     }
     main {
         #invite,
@@ -97,6 +109,20 @@ footer {
 
 @media screen and (min-width: 1200px) {
     .my-container-xl {
-        max-width: 80%;
+        max-width: 70%;
+    }
+    footer {
+        .container:first-child {
+            padding: 0 !important;
+            flex-direction: row !important;
+            flex-wrap: wrap;
+            .big {
+                h3 {
+                    padding-top: .6rem !important;
+                }
+                flex-basis: 20%;
+                padding-top: 0 !important;
+            }
+        }
     }
 }
