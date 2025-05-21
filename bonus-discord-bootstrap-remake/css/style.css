@@ -6,6 +6,10 @@
         .btn-primary {
             background-color: white;
         }
+
+        .btn-secondary {
+            background-color: #92A0DC;
+        }
     /* #endregion color variables */
 }
 
@@ -24,8 +28,18 @@ img {
     max-width: 90%;
 }
 
-#meet {
+#meet,
+#video-call {
     background-color: #f6f6f6;
+}
+
+#video-call {
+    h4 {
+        background-image: url(../img/stars.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top;
+    }
 }
 
 @media screen and (min-width: 992px) {
