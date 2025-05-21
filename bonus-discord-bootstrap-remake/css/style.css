@@ -1,0 +1,25 @@
+:root {
+    /* #region color variables */
+        .bg-primary {
+            background-color: #3D60D8;
+        }
+        .btn-primary {
+            background-color: white;
+            color: black;
+            border-radius: 25px;
+        }
+        --ly-text-light:white;
+        --ly-text-dark:black;
+        --ly-btn-light:white;
+        --ly-btn-dark:black;
+        --ly-bg-primary:white;
+        --ly-bg-secondary:#F6F6F6;
+        --ly-footer-bg-color: #24272A;
+        --ly-text-brand: #7688D4;
+    /* #endregion color variables */
+    }
+
+    .my-container {
+        width: 65%;
+    }
+
